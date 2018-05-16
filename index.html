@@ -1,7 +1,25 @@
 <html>
-  <title>
-    Rodney McQuain's Homepage
-  </title>
+  <title>Rodney McQuain's Homepage</title>
+  
+  <button class="tablink" onclick="openPage('Projects', this, 'red')">Home</button>
+  <button class="tablink" onclick="openPage('Home', this, 'blue')" id="defaultOpen">Home</button>
+  
+  <div id="Projects" class="tabcontent">
+    <button class="tablink" onclick="openPage('Projects', this, 'red')">Home</button>
+    <button class="tablink" onclick="openPage('Home', this, 'blue')" id="defaultOpen">Home</button>
+    
+    <h3>Projects</h3>
+    <p>Here are some of my projects blah, blah...</p>
+    <div id="MeleeCalculator" class="tabcontent">
+      <h3>Melee Calculator</h3>
+      <p>Stuff about melee calc...</p> 
+    </div>
+    
+    <div id="MeleeNotes" class="tabcontent">
+      <h3>Melee Notes</h3>
+      <p>Stuff about melee notes...</p> 
+    </div>
+  </div>
   
   <Head>
     <h1> Attempt at GitHub pages </h1>
