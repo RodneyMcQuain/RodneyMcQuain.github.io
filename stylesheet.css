@@ -5,3 +5,8 @@ div.homebox {
     border: 1px solid black;
     margin: 0 auto; 
 }
+
+div.topbox {
+    padding: 10px;
+    margin: 0 auto; 
+}
