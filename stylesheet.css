@@ -12,6 +12,11 @@ div.topbox {
     margin: 0 auto; 
 }
 
+button.top {
+    width: 100%;
+    height: 100%
+}
+
 div.projectbox {
     width: 800px;
     height: 600px;
