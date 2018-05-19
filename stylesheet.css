@@ -1,13 +1,13 @@
 div.homebox {
     width: 1000px;
     height: 500px;
-    padding: 20px;
+    padding: 25px;
     border: 1px solid black;
     margin: 0 auto; 
 }
 
 div.topbox {
-    padding: 10px;
+    padding: 25px;
     text-align:center;
     margin: 0 auto; 
 }
@@ -15,7 +15,7 @@ div.topbox {
 div.projectbox {
     width: 800px;
     height: 600px;
-    padding: 10px;
+    padding: 25px;
     border: 1px solid black;
     margin: 0 auto; 
 }
