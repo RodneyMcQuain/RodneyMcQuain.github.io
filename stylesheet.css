@@ -7,16 +7,9 @@ div.homebox {
 }
 
 div.topbox {
-    width: 10%;
-    height: 10%;
     padding: 10px;
     text-align:center;
     margin: 0 auto; 
-}
-
-button.top {
-    width: 10%;
-    height: 10%
 }
 
 div.projectbox {
