@@ -33,24 +33,4 @@
     <br/>
     <input type="submit" value="Submit">
   </form>
-  <?php
-    $name = $_POST['name'];
-    $program = $_POST['program'];
-    $visitor_email = $_POST['email'];
-    $feedback_info = $_POST['feedbackInfo'];
-  ?>
-  
-  <?php
-    $email_from = 'somebody123@protonmail.com';
-    $email_subject = "Feedback about $program from $name";
-    $email_body = "$feedback_info";
-  ?>
-  
-  <?php
-    $to = "somebody123@protonmail.com";
-    $headers = "From: $email_from \r\n";
-    $headers .= "Reply-To: $visitor_email \r\n";
-    mail($to,$email_subject,$email_body,$headers);
-  ?>
-
 </div>
