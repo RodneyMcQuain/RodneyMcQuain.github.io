@@ -19,3 +19,21 @@ div.projectbox {
     border: 1px solid black;
     margin: 0 auto; 
 }
+
+input.feedback {
+    
+}
+
+textarea.feedback {
+    width= 600px
+    height= 400px
+    padding: 10px
+}
+
+input.feedback {
+    padding: 10px
+}
+
+label.feedback {
+    padding: 10px
+}
